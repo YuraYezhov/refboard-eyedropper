@@ -702,3 +702,7 @@ FodyWeavers.xsd
 
 # Ignore any binary files
 *.bin
+# Ignore all contents of the data folder
+data/*
+# Exception for .gitkeep
+!data/.gitkeep
